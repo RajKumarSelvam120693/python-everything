@@ -33,6 +33,13 @@ print(gc.collect())
 
 print(gc.get_stats())
 
+# Best practices in Memory management
+# 1. Use Local Variables: Local variables have a shorter lifespan and are freed sooner than global variables
+# 2. Avoid Circular References : Circular references can lead to memory leaks if not properly managed.
+# 3. Use generators
+# 4. Explicitly delete objects
+# 5. Profile Memory usage using tools like tracemalloc and memory_profiler to identify memory leaks
+# and optimise memory usage.
 
 
 
